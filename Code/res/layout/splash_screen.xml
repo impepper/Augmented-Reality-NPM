@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_splash"
+    android:contentDescription="@string/content_desc_vuforia_background" >
+
+    <ImageView
+        android:id="@+id/vuforia_splash_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/content_desc_vuforia_logo"
+        android:paddingBottom="@dimen/padding_20sp"
+        android:scaleX="0.6"
+        android:scaleY="0.6"
+        android:src="@drawable/fuihan_logo" />
+
+    <TextView
+        android:id="@+id/splash_screen_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/activity_splash_title"
+        android:paddingLeft="@dimen/padding_40sp"
+        android:paddingTop="@dimen/padding_10sp"
+        android:text="@string/activity_splash_subtitle"
+        android:textColor="@color/white"
+        android:textSize="@dimen/splash_subtitle"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/activity_splash_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="@dimen/padding_20sp"
+        android:paddingTop="@dimen/padding_60sp"
+        android:shadowColor="@color/black"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:text="@string/activity_splash_title"
+        android:textColor="@color/white"
+        android:textSize="@dimen/splash_title"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/vuforia_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/vuforia_splash_logo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="74dp"
+        android:contentDescription="@string/content_desc_vuforia_logo"
+        android:scaleType="fitEnd"
+        android:src="@drawable/blueprint_vuforia"
+        android:visibility="invisible" />
+
+</RelativeLayout>

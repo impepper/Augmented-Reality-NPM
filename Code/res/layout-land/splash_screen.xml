@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_splash_land"
+    android:contentDescription="@string/content_desc_vuforia_background" >
+
+    <ImageView
+        android:id="@+id/vuforia_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/vuforia_splash_logo"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dip"
+        android:contentDescription="@string/content_desc_vuforia_logo"
+        android:scaleType="fitEnd"
+        android:src="@drawable/blueprint_vuforia"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/activity_splash_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/splash_screen_subtitle"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="23dp"
+        android:text="@string/activity_splash_title"
+        android:textColor="@color/white"
+        android:textSize="@dimen/splash_title"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/splash_screen_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/vuforia_logo"
+        android:layout_alignLeft="@+id/activity_splash_title"
+        android:layout_marginBottom="29dp"
+        android:layout_marginLeft="29dp"
+        android:text="@string/activity_splash_subtitle"
+        android:textColor="@color/white"
+        android:textSize="@dimen/splash_subtitle"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/vuforia_splash_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/content_desc_vuforia_logo"
+        android:scaleX="0.48"
+        android:scaleY="0.48"
+        android:src="@drawable/fuihan_logo" />
+
+</RelativeLayout>
