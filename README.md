@@ -10,9 +10,13 @@ I have build sample Image Targets for contest purpose. but you may want to build
 Here is whow it works (With My image targets)
 
 1.Install compiled APK (in Ref Kits dir.)
+
 2.Launch it and aim to sample Image ( My purpose is to aim paintings in museiums )
+
   http://www.npm.gov.tw/masterpiece/fPreview.aspx?sNo=04001001
+  
   http://www.npm.gov.tw/masterpiece/fPreview.aspx?sNo=04000974
+  
 3.A dialog introducing the painting you aimed Poped.
 
 Some of the introductions are made both for Traditional Chionese (mainly) and English.
